@@ -2,9 +2,31 @@
  selectores::
  
 */
-
+/* Margin para contenido afuera de cajas y padding para el contenido dentro de una caja */
+/* Usar siempre sans-serif */
 body{
     /* border: 20px solid red; */
+    font-family: sans-serif;
+    font-size: 16px;
     max-width: 1024px;
     margin:0px auto;
+    border:1px solid red;
 }
+
+header{ 
+    background: #D1E3EE;
+    
+}
+
+nav{
+    background-color: blue;
+}
+header nav ul li{
+    display: inline-block;
+}
+
+#logo{
+    margin-top: -150px;
+}
+
+
