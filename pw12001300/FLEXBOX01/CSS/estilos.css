@@ -1,0 +1,33 @@
+.contenedor{
+    background: khaki;
+    border: 1px solid black;
+    height: 400px;
+    padding: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 3px solid black;
+    font-size: 30px;
+    margin: 15px;
+    width: 100px;
+}
+
+.b1{
+    order: 1;
+    flex-grow: 0;
+}
+
+.b2{
+    order: 1;
+    flex-grow: 1;
+}
+
+.b3{
+    order: 1;
+    flex-grow: 1;
+}
